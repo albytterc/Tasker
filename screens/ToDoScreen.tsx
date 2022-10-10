@@ -10,7 +10,7 @@ import symbolicateStackTrace from 'react-native/Libraries/Core/Devtools/symbolic
 // import { useHeaderHeight } from
 
 
-export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'>) {
+export default function ToDoScreen() {
   const [title, setTitle] = useState("")
   const [todos, setTodos] = useState([{
     id: '1',
